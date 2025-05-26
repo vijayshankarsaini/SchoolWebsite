@@ -22,6 +22,29 @@ app.get('/', async (req, res) => {
   res.render('index', { _layout: layout, _index: index });
 });
 
+app.get('/admission', async (req, res) => {
+  const layout = await loadContent('./data/layout.json');
+  res.render('admission', {_layout: layout });
+});
+
+app.get('/gallery', async (req, res) => {
+  const layout = await loadContent('./data/layout.json');
+  const gallery = await loadContent('./data/gallery.json');
+  res.render('gallery', {_layout: layout, _gallery: gallery });
+});
+
+app.get('/result', async (req, res) => {
+  const layout = await loadContent('./data/layout.json');
+  const result = await loadContent('./data/result.json');
+  res.render('result', {_layout: layout, _result: result });
+});
+
+app.get('/teacher', async (req, res) => {
+  const layout = await loadContent('./data/layout.json');
+  const teacher = await loadContent('./data/teacher.json');
+  res.render('teacher', {_layout: layout, _teacher: teacher });
+});
+
 app.get('/testimonial', async (req, res) => {
   const layout = await loadContent('./data/layout.json');
   const testimonial = await loadContent('./data/testimonial.json');

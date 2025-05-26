@@ -1,0 +1,38 @@
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+    }
+
+    /* Clearfix (clear floats) */
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .GalleryImg {
+        border-radius: 10px;
+        width: 100%;
+    }
+</style>
+<div class="row text-center" style="padding-bottom:20px;">
+    <h2 style="color:#2374b9">School Photo Gallery</h2>
+    <img src="/images/underline-2.png" class="underline-design" />
+</div>
+<div class="row">
+
+    <% for (var i = 0; i <  _gallery.length; i++){ %>
+        <div class="column">
+            <figure>
+                <img src="<%= _gallery[i].Url %>" alt="Snow" class="GalleryImg">
+                <figcaption class="text-center colorDarkBlue"><%= _gallery[i].Caption %></figcaption>
+            </figure>
+        </div>
+    <%}%>
+</div>

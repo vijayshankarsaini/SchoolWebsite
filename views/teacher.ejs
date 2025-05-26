@@ -1,0 +1,40 @@
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+    }
+
+    /* Clearfix (clear floats) */
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .TeacherImg {
+        width: 100%;
+        max-height: 250px;
+        border-radius: 40px;
+    }
+</style>
+<div class="row text-center" style="padding-bottom:20px;">
+    <h2 style="color:#2374b9">Our Teachers</h2>
+    <img src="/images/underline-2.png" class="underline-design" />
+</div>
+<div class="row">
+    <% for (var i=0; i < _teacher.length; i++) { %>
+        <div class="column">
+            <figure>
+                <img src="<%= _teacher[i].Url %>" alt="Snow" class="TeacherImg">
+                <figcaption class="text-center colorDarkBlue">Name: <%= _teacher[i].Name %></figcaption>
+                <figcaption class="text-center colorDarkBlue">Subject: <%= _teacher[i].Subject %></figcaption>
+                <figcaption class="text-center colorDarkBlue">Experience: <%= _teacher[i].Experience %></figcaption>
+            </figure>
+        </div>
+    <%}%>   
+</div>

@@ -1,0 +1,41 @@
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+    }
+
+    /* Clearfix (clear floats) */
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .ResultImg{
+        width: 100%;
+        max-height: 250px;
+        border-radius: 40px;
+    }
+</style>
+<div class="row text-center" style="padding-bottom:20px;">
+    <h2 style="color:#2374b9">Our Shining Stars</h2>
+    <img src="/images/underline-2.png" class="underline-design" />
+</div>
+<div class="row">
+
+    <%for (var i=0; i < _result.length; i++) { %>
+        <div class="column">
+            <figure>
+                <img src="<%= _result[i].Url %>" alt="Snow" class="ResultImg">
+                <figcaption class="text-center colorDarkBlue">Name: <%= _result[i].Name %></figcaption>
+                <figcaption class="text-center colorDarkBlue">Result: <%= _result[i].Result %> (<%= _result[i].ResultYear %>)</figcaption>
+                <figcaption class="text-center colorDarkBlue">Class: <%= _result[i].Classroom %> </figcaption>
+            </figure>
+        </div>
+    <%}%>
+</div>
