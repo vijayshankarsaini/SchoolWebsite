@@ -1,0 +1,77 @@
+[
+  {
+    "Id": "1",
+    "Caption": "Lunch Hours",
+    "Url": "../images/1.jpeg"
+  },
+  {
+    "Id": "2",
+    "Caption": "Hanuman Jayanti Celebration",
+    "Url": "../images/2.jpeg"
+  },
+  {
+    "Id": "3",
+    "Caption": "Pottery Activity",
+    "Url": "../images/5.jpeg"
+  },
+  {
+    "Id": "4",
+    "Caption": "Rangoli Making",
+    "Url": "../images/6.jpeg"
+  },
+  {
+    "Id": "5",
+    "Caption": "Game Hours",
+    "Url": "../images/9.jpeg"
+  },
+  {
+    "Id": "6",
+    "Caption": "Lab Hours",
+    "Url": "../images/10.jpeg"
+  },
+  {
+    "Id": "7",
+    "Caption": "Children's Day Celebration",
+    "Url": "../images/11.jpeg"
+  },
+  {
+    "Id": "8",
+    "Caption": "Game Competition",
+    "Url": "../images/22.jpeg"
+  },
+  {
+    "Id": "9",
+    "Caption": "Republic Day Celebration",
+    "Url": "../images/17.jpeg"
+  },
+  {
+    "Id": "10",
+    "Caption": "Republic Day Celebration",
+    "Url": "../images/16.jpeg"
+  },
+  {
+    "Id": "11",
+    "Caption": "Republic Day Celebration",
+    "Url": "../images/21.jpeg"
+  },
+  {
+    "Id": "12",
+    "Caption": "Republic Day Celebration",
+    "Url": "../images/40.jpeg"
+  },
+  {
+    "Id": "13",
+    "Caption": "Solar System",
+    "Url": "../images/13.jpeg"
+  },
+  {
+    "Id": "14",
+    "Caption": "Music Hours",
+    "Url": "../images/14.jpeg"
+  },
+  {
+    "Id": "15",
+    "Caption": "Drawing Activity",
+    "Url": "../images/19.jpeg"
+  }
+]
