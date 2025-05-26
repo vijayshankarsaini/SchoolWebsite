@@ -1,0 +1,108 @@
+<div class="row text-center" style="padding-bottom:20px;">
+    <h2 style="color:#2374b9">About Us</h2>
+    <img src="/images/underline-2.png" class="underline-design" />
+</div>
+<div class="about-wrap" id="about">
+    <div class="container">
+        <div class="row" style="margin-bottom:30px;">
+            <div class="col-lg-6">
+                <img src=<%= _about.AboutUrl %> class="AboutUsImage" />
+            </div>
+            <div class="col-lg-6">
+                <p>
+                    <%= _about.About %>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="aboutImg"><img src=<%= _about.Url %> alt="" class="AboutUsImage"></div>
+            </div>
+            <div class="col-lg-6">
+                <div class="about_box">
+                    <div class="title">
+                        <h1>Technology Integrated <span>Learning</span></h1>
+                    </div>
+                    <p>Integration of technology in education simply refers to the use of technology to enhance the student learning experience. Utilizing different types of technology in the classroom, including a virtual classroom, creates learners who are actively engaged with learning objectives.</p>
+                    <ul class="edu_list">
+                        <li>
+                            <div class="learing-wrp">
+                                <div class="edu_icon"><img src="/images/class.png" alt=""></div>
+                                <div class="learn_info">
+                                    <h3>Honors classes</h3>
+                                    <p>Honors classes for talented high school students who excel in certain subjects.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="learing-wrp">
+                                <div class="edu_icon"><img src="/images/academy.png" alt=""></div>
+                                <div class="learn_info">
+                                    <h3>Traditional academies</h3>
+                                    <p>A school who outperforms traditional methods in Speed, Quality, and Efficiency.</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="swiper">
+    <div class="Wing-Wrapper">
+        <ul class="unorderList swiper-wrapper">
+            <% for (var i=0; i < _about.Wings.length; i++) { %>
+            
+                <li class="swiper-slide swipLi">
+                    <div class="blog_box">
+                        <div class="blogImg">
+                            <img src="<%= _about.Wings[i].Url %>" alt="" class="wingImage">
+                        </div>
+                        <div class="path_box">
+                            <h4 style="color:#083372"><%= _about.Wings[i].Heading %></h4>
+                            <p><%= _about.Wings[i].Message %></p>
+                        </div>
+                    </div>
+                </li>
+            <% }%>
+        </ul>
+
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+</div>
+
+<script>
+    const swiper1 = new Swiper('.Wing-Wrapper', {
+        loop: true,
+        spaceBetween: 25,
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+            dynamicBullets: true
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        breakpoints: {
+            0: {
+                slidesPerView: 1
+            },
+            768: {
+                slidesPerView: 2
+            },
+            1024: {
+                slidesPerView: 3
+            }
+        }
+    });
+</script>

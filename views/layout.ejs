@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= _layout.SchoolInfo.SchoolShortName %></title>
+    <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/lib/fonts/font-awesome.min.css" />
+    <link rel="stylesheet" href="/css/site.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script src="/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+<body>
+  <header>
+        <div style="background-color:rgb(63 121 210); height:35px;">
+            <ul style="padding-left:5px;list-style:none;margin-top: -16px; ">
+                <li class="Headerli1"><i class="fa fa-phone"></i>&nbsp; <%= _layout.SchoolInfo.Phone %></li>
+                <li class="Headerli1" style="padding-left:10px;"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;  <%= _layout.SchoolInfo.Email %></li>
+                <li class="Headerli2" title="Facebook"><a href="<%=_layout.SchoolInfo.FacebookUrl%>"><i class="fa fa-facebook-f facebook-icon-header" aria-hidden="true"></i></a></li>
+                <li class="Headerli2" title="Twitter"><a href="#"><i class="fa fa-twitter twitter-icon-header" aria-hidden="true"></i></a></li>
+                <li class="Headerli2" title="Instagram"><a href="#"><i class="fa fa-instagram instagram-icon-header" aria-hidden="true"></i></a></li>
+                <li class="Headerli2" title="Youtube"><a href="<%=_layout.SchoolInfo.YoutubeUrl%>"><i class="fa fa-youtube-play youtube-icon-header" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+        <div class="top-bar bg-light py-2 text-center TopHeader">
+            <img style="max-height:85px" src="<%=_layout.SchoolInfo.HeaderLogoUrl%>" />
+            <a class="navbar-brand fs-1 colorDarkBlue" asp-area="" asp-page="/Index"><b><%=_layout.SchoolInfo.SchoolName%></b></a>
+        </div>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3" style="background-color: rgb(63 121 210) !important;">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1 d-flex justify-content-center">
+                        <li class="nav-item">
+                          <a class="nav-link text-dark NavText" href="/"><%= _layout.Menus.Home %></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-dark NavText" href="/admission"><%= _layout.Menus.Admission %></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-dark NavText" href="/gallery"><%= _layout.Menus.Gallery %></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-dark NavText" href="/result"><%= _layout.Menus.Results %></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-dark NavText" href="/teacher"><%= _layout.Menus.Teachers %></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-dark NavText" href="/testimonial"><%= _layout.Menus.Testimonials %></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-dark NavText" href="/alumni"><%= _layout.Menus.Alumni %></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-dark NavText" href="/about"><%= _layout.Menus.About %></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-dark NavText" href="/contact"><%= _layout.Menus.Contact %></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+      <%- body %>
+    </main>
+
+
+ <div class="footer-wrap">
+     <div class="container">
+         <div class="row">
+             <div class="col-lg-4" id="contact">
+                 <div class="footer_logo"><img alt="" style="max-height:105px;" class="footer-default" src="<%= _layout.SchoolInfo.MapsLogoUrl %>"></div>
+                 <hr />
+                 <p>
+                     <iframe class="iframe" src="<%= _layout.SchoolInfo.MapsUrl %>" width="350" height="175" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                 </p>
+             </div>
+             <div class="col-lg-2 col-md-3">
+                 <h3 class="colorDarkBlue">Quick links</h3>
+                 <ul class="footer-links">
+                    <li> <a href="/Admission"><i class="fa fa-hand-o-right colorDarkBlue" style="padding-right:5px;"></i><%= _layout.Menus.Admission %></a></li>
+                    <li> <a href="/Gallery"><i class="fa fa-hand-o-right colorDarkBlue" style="padding-right:5px;"></i><%= _layout.Menus.Gallery %></a></li>
+                    <li> <a href="/Results"><i class="fa fa-hand-o-right colorDarkBlue" style="padding-right:5px;"></i><%= _layout.Menus.Results %></a></li>
+                    <li> <a href="/Teachers"><i class="fa fa-hand-o-right colorDarkBlue" style="padding-right:5px;"></i><%= _layout.Menus.Teachers %></a></li>
+                    <li> <a href="/Testimonial"><i class="fa fa-hand-o-right colorDarkBlue" style="padding-right:5px;"></i><%= _layout.Menus.Testimonials %></a></li>
+                    <li> <a href="/Alumni"><i class="fa fa-hand-o-right colorDarkBlue" style="padding-right:5px;"></i><%= _layout.Menus.Alumni %></a></li>
+                    <li> <a href="/About"><i class="fa fa-hand-o-right colorDarkBlue" style="padding-right:5px;"></i><%= _layout.Menus.About %></a></li>
+                    <li> <a href="/Contact"><i class="fa fa-hand-o-right colorDarkBlue" style="padding-right:5px;"></i><%= _layout.Menus.Contact %></a></li>
+                 </ul>
+             </div>
+             <div class="col-lg-3 col-md-4">
+                 <h3 class="colorDarkBlue">Opening Hours</h3>
+                 <ul class="unorderList hourswrp">
+                     <li>Monday <span><%= _layout.OpeningHours.Monday %></span></li>
+                     <li>Tuesday <span><%= _layout.OpeningHours.Tuesday %></span></li>
+                     <li>Wednesday <span><%= _layout.OpeningHours.Wednesday %></span></li>
+                     <li>Thursday <span><%= _layout.OpeningHours.Thursday %></span></li>
+                     <li>Friday <span><%= _layout.OpeningHours.Friday %></span></li>
+                     <li>Saturday <span><%= _layout.OpeningHours.Saturday %></span></li>
+                     <li>Sunday <span><%= _layout.OpeningHours.Sunday %></span></li>
+                 </ul>
+             </div>
+             <div class="col-lg-3 col-md-4">
+                 <div class="footer_info">
+                     <h3 class="colorDarkBlue">Get in Touch</h3>
+                     <ul class="footer-adress">
+                         <li class="footer_address"> <i class="fa fa-map-marker colorDarkBlue"></i> <span class="colorLightBlue"><%= _layout.SchoolInfo.Address %></span> </li>
+                         <li class="footer_email"> <i class="fa fa-envelope colorDarkBlue" aria-hidden="true"></i> <span class="colorLightBlue"><a href="mailto:@BaseModel?.SchoolInfo.Email"> <%= _layout.SchoolInfo.Email %> </a></span> </li>
+                         <li class="footer_phone"> <i class="fa fa-phone colorDarkBlue"></i> <span class="colorLightBlue"><a href="tel:@BaseModel?.SchoolInfo.Phone"> <%= _layout.SchoolInfo.Phone %></a></span> </li>
+                     </ul>
+                     <div class="social-icons footer_icon">
+                         <ul style="padding-left:5px;">
+                             <li title="Facebook"><a href="<%= _layout.SchoolInfo.FacebookUrl%>"><i class="fa fa-facebook-f facebook-icon" aria-hidden="true"></i></a></li>
+                             <li title="Twitter"><a href="#"><i class="fa fa-twitter twitter-icon" aria-hidden="true"></i></a></li>
+                             <li title="Instagram"><a href="#"><i class="fa fa-instagram instagram-icon" aria-hidden="true"></i></a></li>
+                             <li title="Youtube"><a href="<%= _layout.SchoolInfo.YoutubeUrl%>"><i class="fa fa-youtube-play youtube-icon" aria-hidden="true"></i></a></li>
+                         </ul>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container" style="text-align:center; color:#083372; font-size:14px;">
+            &copy; <%= _layout.SchoolInfo.FooterNote %>
+        </div>
+    </footer>
+</body>
+</html>

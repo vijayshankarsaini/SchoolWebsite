@@ -1,0 +1,32 @@
+{
+  "About": "Kaushik School, one of the most prestigious schools in the area, is celebrating its 30th anniversary this year. Founded in 1996 by Mr. Rajesh Kaushik and Mr. Anil Kaushik, the school has come a long way in providing quality education to its students. The school places a strong emphasis on academics, with a team of experienced teachers who use innovative teaching methods to engage students. It also offers a range of extracurricular activities, including sports, music, and arts. Over the years, the school has achieved numerous milestones, including a 100% pass rate in board exams and several state and national awards in sports. As part of its future plans, the school is committed to integrating technology into classrooms by training teachers in the use of digital tools such as smart boards.",
+  "AboutUrl": "../images/aboutUs0.png",
+  "Url": "../images/aboutUs1.png",
+  "Wings": [
+    {
+      "Url": "../images/W0.jpg",
+      "Heading": "Pre Primary Wing",
+      "Message": "Introduction of concepts that are age appropriate and are based on understanding, reasoning and hands on activities are woven into the curriculum."
+    },
+    {
+      "Url": "../images/W1.jpg",
+      "Heading": "Primary Wing",
+      "Message": "A well-mapped curriculum to hone their 3 Rs- Reading, Writing and Arithmetic. It also allows the students to nurture their deep learning skills."
+    },
+    {
+      "Url": "../images/W2.jpg",
+      "Heading": "Junior Wing",
+      "Message": "Scholastic and co-scholastic areas are interconnected to ensure a smooth transition from junior to senior school levels."
+    },
+    {
+      "Url": "../images/W3.jpg",
+      "Heading": "Secondary Wing",
+      "Message": "The link between scholastic and co-scholastic areas supports a seamless move from senior to senior secondary school."
+    },
+    {
+      "Url": "../images/W4.jpg",
+      "Heading": "Sr. Secondary Wing",
+      "Message": "Students are taught to apply their acquired knowledge and education is basically application based, in the senior secondary classes."
+    }
+  ]
+}

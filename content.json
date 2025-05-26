@@ -1,0 +1,14 @@
+{
+  "home": {
+    "title": "Welcome to Our School",
+    "sliderImages": ["slide1.jpg", "slide2.jpg", "slide3.jpg"]
+  },
+  "about": {
+    "title": "About Us",
+    "description": "We are a school committed to excellence in education."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Please reach out using the form below."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "SchoolInfo": {
+    "SchoolShortName": "Kaushik Shiksha Niketan",
+    "SchoolName": "Kaushik Shiksha Niketan Sr. Sec. School",
+    "HeaderLogoUrl": "../images/header_logo.png",
+    "MapsLogoUrl": "../images/map_logo.png",
+    "MapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3555.861206095015!2d75.74545271482488!3d26.971294264059168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db30b15555555%3A0xcc7d4f70ac7358e6!2sKaushik%20Shiksha%20Niketan%20Senior%20Secondary%20School!5e0!3m2!1sen!2sin!4v1678446348107!5m2!1sen!2sin",
+    "Email": "kaushikschool@gmail.com",
+    "Phone": "+91-9828374410",
+    "Address": "Green Park, Dadi Ka Phatak, Jhotwara, Jaipur",
+    "FacebookUrl": "https://www.facebook.com/groups/1394491110874467/?ref=share&mibextid=lURqYx",
+    "TwitterUrl": "",
+    "InstagramUrl": "",
+    "YoutubeUrl": "https://youtube.com/@kaushikschooljaipur9203",
+    "FooterNote": "Kaushik Shiksha Niketan"
+  },
+  "Menus": {
+    "Home": "Home",
+    "Infrastructure": null,
+    "Admission": "Admission",
+    "Gallery": "Gallery",
+    "Results": "Results",
+    "Teachers": "Teachers",
+    "Testimonials": "Testimonials",
+    "Alumni": "Alumni",
+    "About": "About Us",
+    "Contact": "Contact Us"
+  },
+  "OpeningHours": {
+    "Monday": "08:30 - 02:00",
+    "Tuesday": "08:30 - 02:00",
+    "Wednesday": "08:30 - 02:00",
+    "Thursday": "08:30 - 02:00",
+    "Friday": "08:30 - 02:00",
+    "Saturday": "08:30 - 02:00",
+    "Sunday": "Closed"
+  }
+}

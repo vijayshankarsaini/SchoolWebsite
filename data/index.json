@@ -1,0 +1,135 @@
+{
+  "IndexSliders": [
+    {
+      "Id": "1",
+      "Caption": "John Doe",
+      "Url": "../images/42.jpeg"
+    },
+    {
+      "Id": "2",
+      "Caption": "John Doe",
+      "Url": "../images/3.jpeg"
+    },
+    {
+      "Id": "3",
+      "Caption": "John Doe",
+      "Url": "../images/4.jpeg"
+    },
+    {
+      "Id": "4",
+      "Caption": "John Doe",
+      "Url": "../images/8.jpeg"
+    },
+    {
+      "Id": "5",
+      "Caption": "John Doe",
+      "Url": "../images/17.jpeg"
+    },
+    {
+      "Id": "6",
+      "Caption": "John Doe",
+      "Url": "../images/20.jpeg"
+    },
+    {
+      "Id": "7",
+      "Caption": "John Doe",
+      "Url": "../images/25.jpeg"
+    },
+    {
+      "Id": "8",
+      "Caption": "John Doe",
+      "Url": "../images/26.jpeg"
+    },
+    {
+      "Id": "9",
+      "Caption": "John Doe",
+      "Url": "../images/31.jpeg"
+    }
+  ],
+  "DirectorSection": {
+    "SectionHeading": "Director's Message",
+    "DirectorImageUrl": "../images/director.png",
+    "P1": "Dear parents, teachers and students:",
+    "P2": "Welcome to the new session - 2024-25!",
+    "P3": "I hope that this session sees not just rewards, recognitions and achievements but also more harmony, cooperation and understanding among all stakeholders.",
+    "P4": "It gives me immense joy to see the commitment of the Kaushik Shiksha Niketan Jaipur family to meet the educational needs of the students in these changing times. The resourcefulness, dedication and creativity of teachers will surely ensure a generation of future ready students.",
+    "P5": "The school is a dynamic organisation and has moved from strength to strength with the support, cooperation and synergy among teachers, parents, students and the entire community. Now is the time to transform education, to emerge stronger and propose a new path for our students to carve a niche for themselves in the world.",
+    "P6": "I would also like to reiterate the importance of mental health, spiritual wellness and physical safety of all our stakeholders! I wish peace, wellness and mindfulness to everyone!",
+    "P7": "'Hope lies in dreams, in imagination, and in the courage of those who dare to make dreams into reality.'",
+    "DirectorName_P8": "Mr. Anil Kaushik",
+    "Designation_P9": "Director",
+    "SchoolName_P10": "Kaushik Shiksha Niketan, Jaipur"
+  },
+  "CallToEnroll": {
+    "Heading": "Call To Enroll Your Child",
+    "Message": "You want the best for your children, and at Kaushik Group of Schools, that’s exactly what we’re here to provide. Enroll today, or call now to learn more about the process below.",
+    "PhoneNo": "+91-9828374410"
+  },
+  "Cards": [
+    {
+      "Url": "../images/teacher.png",
+      "Heading": "Expert Teachers",
+      "Message": "We have everyone in our team is a passionate, talented educator. They know how to connect with child, explain complicated ideas, and be patient and motivating."
+    },
+    {
+      "Url": "../images/book.png",
+      "Heading": "Quality Education",
+      "Message": "We maintain an engaging, stimulating, and futuristic approach to learning by integrating the best and the latest teaching methodologies."
+    },
+    {
+      "Url": "../images/support.png",
+      "Heading": "Personalized Attention",
+      "Message": "We believe that education is all about being the guiding star for the little ones. Our teacher give special consideration to help them to attain their goals"
+    },
+    {
+      "Url": "../images/scholarship.png",
+      "Heading": "Emphasis on Performing Arts",
+      "Message": "We also encourage performing art skills to uplift the artistic qualities of our young geniuses. School provides every facility required to nurture the little creative souls."
+    }
+  ],
+  "Events": [
+    {
+      "Url": "../images/43.jpeg",
+      "Heading": "Sports Achievements",
+      "Message": "We are proud of our students for winning medals in sports, showcasing their hard work, dedication, discipline, talent, and team spirit."
+    },
+    {
+      "Url": "../images/44.jpeg",
+      "Heading": "Sports Glory",
+      "Message": "Our students have made us proud by winning medals in various events, reflecting their dedication, discipline and sporting excellence."
+    },
+    {
+      "Url": "../images/47.jpeg",
+      "Heading": "Winning Spirit",
+      "Message": "Inspector Narendra Singh Rathod has made us proud by winning a gold medal in the All India Police Weightlifting Championship."
+    }
+  ],
+  "Videos": [
+    {
+      "Url": "../video/2.mp4",
+      "Heading": "Every ride is a new lession",
+      "Message": "Our school offers a safe and reliable transport facility with well-maintained buses and trained staff to ensure student comfort and punctuality."
+    },
+    {
+      "Url": "../video/3.mp4",
+      "Heading": "A Day to Remember",
+      "Message": "On this special Foundation Day, we express our heartfelt gratitude to our school for shaping our lives."
+    },
+    {
+      "Url": "../video/4.mp4",
+      "Heading": "A Legacy of Learning",
+      "Message": "On this special Foundation Day, we express our heartfelt gratitude to our school for shaping our lives."
+    },
+    {
+      "Url": "../video/5.mp4",
+      "Heading": "Honoring Our Roots",
+      "Message": "On this special Foundation Day, we express our heartfelt gratitude to our school for shaping our lives."
+    },
+    {
+      "Url": "../video/6.mp4",
+      "Heading": "Foundations of Success",
+      "Message": "On this special Foundation Day, we express our heartfelt gratitude to our school for shaping our lives."
+    }
+  ],
+  "PopupImageUrl": "../images/popup.jpg"
+}

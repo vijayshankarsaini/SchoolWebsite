@@ -1,0 +1,58 @@
+[
+  {
+    "Id": "1",
+    "Name": "Ankit",
+    "Classroom": "12th (Science)",
+    "Result": "95.2%",
+    "ResultYear": "2024",
+    "Url": "../images/man-dummy.jpg"
+  },
+  {
+    "Id": "1",
+    "Name": "Mayank",
+    "Classroom": "12th (Science)",
+    "Result": "93.5%",
+    "ResultYear": "2024",
+    "Url": "../images/man-dummy.jpg"
+  },
+  {
+    "Id": "3",
+    "Name": "Priya",
+    "Classroom": "12th (Commerce)",
+    "Result": "92.5%",
+    "ResultYear": "2024",
+    "Url": "../images/woman-dummy.jpg"
+  },
+  {
+    "Id": "2",
+    "Name": "Manish",
+    "Classroom": "12th (Arts)",
+    "Result": "90.5%",
+    "ResultYear": "2024",
+    "Url": "../images/man-dummy.jpg"
+  },
+  {
+    "Id": "4",
+    "Name": "Yogita",
+    "Classroom": "10th",
+    "Result": "94%",
+    "ResultYear": "2024",
+    "Url": "../images/woman-dummy.jpg"
+  },
+  {
+    "Id": "5",
+    "Name": "Mukesh",
+    "Classroom": "10th",
+    "Result": "91.5%",
+    "ResultYear": "2024",
+    "Url": "../images/man-dummy.jpg"
+  },
+  {
+    "Id": "6",
+    "Name": "Nilesh",
+    "Classroom": "10th",
+    "Result": "90%",
+    "ResultYear": "2024",
+    "Url": "../images/man-dummy.jpg"
+  }
+]

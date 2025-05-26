@@ -1,0 +1,30 @@
+[
+  {
+    "Id": "1",
+    "Name": "Rahul Verma",
+    "Title": "Jr Accountant",
+    "Message": "हमेशा यही कहा जाता है, कि जहा नींव मजबूत होती है वहां ईमारत मजबूत रहती है लेकिन  कौशिक शिक्षा स्कूल परिवार के माध्यम से मेने इस बात को विपरीत कर दिखाया, जहा मेने 10th मे अन्य स्कूल में 66 प्रतिशत अंक अर्जित करे वही 2011 में सही समय पर स्कूल बदलने के निर्णय  से मेरे द्वारा कौशिक शिक्षा स्कूल के अनुशासित वातावरण मे रहकर व अच्छी पढाई के माध्यम से 12th कॉमर्स में 85 प्रतिशत अंक अर्जित किये गए, मेरे स्कूल के अंतिम 2 वर्षो में कौशिक शिक्षा के माध्यम से जो मेहनत की गई उसी का नतीजा रहा की मेरी ग्रेजुएशन राजस्थान विश्व विद्यालय के कॉमर्स कॉलेज से संपन्न हुई, मेँ आभारी हूँ कौशिक शिक्षा परिवार का विशेष कर अनिल जी सर जिनके अनुशासन व मार्गदर्शन के बदौलत 2011 में 12th पास आउट होने के उपरांत शीघ्र ही 2013 मे मेरा राजकीय सेवा मे चयन हुआ और आज वर्तमान मे राजस्थान सरकार मे सहायक लेखा अधिकारी के पद पर सेवाएं दे रहा हूँ",
+    "Url": "../images/RahulVerma.png"
+  },
+  {
+    "Id": "2",
+    "Name": "Dr. Nisha Sharma",
+    "Title": "BAMS MS (Govt. Medical Officer)",
+    "Message": "This school is foundation institute of my academics. I am really blessed because what today I am is because of this school. I have so much trust that my ward is also studying the same school.",
+    "Url": "../images/NishaSharma.png"
+  },
+  {
+    "Id": "3",
+    "Name": "Vijay Shankar Saini",
+    "Title": "Software Engineer",
+    "Message": "Attending Kaushik School has been one of the most rewarding experiences of my life. The teachers are not only knowledgeable but also genuinely care about each student’s growth and success. The environment is welcoming, inclusive, and full of opportunities—whether it’s academics, sports, or the arts. I've grown so much here, not just as a student, but as a person. I'm proud to be part of a school that encourages curiosity, creativity, and community spirit. A special thanks to Anil Ji Sir for his constant guidance and support. His encouragement and wisdom have made a lasting impact on my journey.",
+    "Url": "../images/vijaysaini.png"
+  },
+  {
+    "Id": "4",
+    "Name": "Narendra Singh Rathore",
+    "Title": "Sub Inspector",
+    "Message": "My time at Kaushik School has been truly unforgettable. Under the guidance and support of our respected Directors, Mr. Anil Kaushik and Mr. Rajesh Kaushik, I was able to grow not just academically but also personally. The memories, friendships, and lessons I’ve gained here will stay with me forever. I am deeply grateful to everyone who made this journey so special.",
+    "Url": "../images/narendrasingh.png"
+  }
+]
